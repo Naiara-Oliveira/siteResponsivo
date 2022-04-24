@@ -42,20 +42,22 @@ a {
 }
 
 .header {
+   background: linear-gradient(#f1c0e8, #cfbaf0, #98f5e1, #ffcfd2);
+   max-width: 100%;
+   height:180px
+}
+.container{
    display: flex;
    flex-wrap: wrap;
-   gap: 30px;
-   max-width: 100%;
-   height: 200px;
+   gap: 8px;
+ 
    justify-items: center;
    align-items: center;
-   background: linear-gradient(#f1c0e8, #cfbaf0, #98f5e1, #ffcfd2);
 }
-
 .navegacao {
    display: flex;
-   padding: 30px;
-   gap: 40px;
+   padding: 10px;
+   gap: 10px;
    flex-wrap: wrap;
 
 }
@@ -64,7 +66,7 @@ a {
 
    padding: 16px 0px;
    position: relative;
-   font-size: 2.2rem;
+   font-size: 1.2rem;
    color: rgba(0, 0, 0, 0.6);
    font-family: "Poppins";
    display: block;
@@ -98,7 +100,6 @@ a {
    display: block;
    justify-content: flex-end;
    max-width: 50px;
-   margin-top: 40px;
    grid-column-gap: 50px;
    padding: 5px;
 }
@@ -164,8 +165,6 @@ span {
    border-radius: 4px;
    font-size: 1.1rem;
    outline: none;
-   margin-top: 40px;
-   margin-left: 100px;
 }
 
 .busca input:focus {
@@ -231,7 +230,7 @@ span {
 
 
 /*Medias Queries*/
-@media (min-width:250px) and (max-width:1200px) {
+@media (min-width:340px) and (max-width:767px) {
    .banner img {
       max-width: 100%;
    }
@@ -248,7 +247,104 @@ span {
       justify-content: start;
       gap: 3px;
       flex-wrap: wrap;
-      height: 200px;
+      height: 150px;
+
    }
+.navegacao a{
+ 
+   margin: 0;
+   padding: 0;
+   gap: 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+}
+@media (min-width:768px) and (max-width:960px) {
+
+   .logo img{
+   max-width: 399px;
+      padding: 6px;
+    margin: 0px;
+
+   }
+ 
+.navegacao{
+   gap: 40px;
+  
+}
+.navegacao a{
+   margin-left: 30px;
+margin-top: 90px;
+gap: 40px;
+justify-content: space-around;
+font-size: 1rem;
+}
+.busca{
+   margin-left:400px;
 
 }
+.sessao1 img,
+.sessao2 img,
+.sessao3 img {
+   display: grid;
+   grid-template-columns: 2fr;
+   justify-content: space-around;
+   max-width: 280px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+}
+
+
+@media (min-width:691px) and (max-width:1020px) {
+
+   .logo{
+      max-width: 200px;
+      padding: 6px;
+    margin: 0px;
+   }
+   .header {
+      display: flex;
+      justify-content: start;
+      gap: 3px;
+      flex-wrap: wrap;
+      height: 150px;
+
+   }
+   .container{
+      margin-top: -190px;
+   }
+   .navegacao{
+      
+    margin-left: 200px;
+ 
+      }
+   .navegacao a{
+      font-size: 1.2rem;
+   }
+
+
+}
+@media (min-width:1021px) and (max-width:1600px) {
+
+   .logo{
+      max-width: 250px;
+      padding: 10px;
+    margin: 0px;
+   }
+   .header {
+      display: flex;
+      justify-content: start;
+      gap: 3px;
+      flex-wrap: wrap;
+      height: 150px;
+
+   }
+   .navegacao a{
+      font-size: 1.6rem;
+   }
+
+
+}
+
+
