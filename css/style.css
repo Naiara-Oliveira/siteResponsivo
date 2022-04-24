@@ -241,6 +241,9 @@ span {
 .busca{
    margin-left: 10px;
 }
+.carrinho{
+   max-width: 30px;
+}
    .header {
       display: flex;
       padding: 4px;
