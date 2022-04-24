@@ -439,12 +439,13 @@ span {
 
 }
 
-@media (min-width:1021px)and (max-width:1320px) {
-   .logo {
-      max-width: 30px;
+@media (min-width:1021px){
+   .logo img{
+      max-width: 40px;
+
    }
 
-}
+
 
 .header {
    height: 200px;
@@ -458,11 +459,11 @@ span {
 }
 
 .navegacao a {
-
    gap: 10px;
    padding: 8px;
    font-size: 2rem;
    align-items: center;
+
 }
 
 .carrinho {
@@ -478,4 +479,4 @@ span {
    max-width: 280px;
    margin-top: 30px;
    margin-bottom: 10px;
-}
+}}
