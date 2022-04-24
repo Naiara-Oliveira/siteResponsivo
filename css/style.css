@@ -426,17 +426,19 @@ h1{
 
 }
 
-@media (min-width:1021px) {
-   .logo img{
-max-width: 30px;
+@media (min-width:1021px )and (max-width:1320px) {
+.logo{
+   max-width: 30px;
+}
 
    }
    .header{
       height:200px;
       justify-content: space-around;
+
    }
    .container{
-      margin-top: -150px;
+ margin-top: -120px;
       justify-content: flex-end;
    }
    .navegacao a {
@@ -445,7 +447,6 @@ max-width: 30px;
       padding: 8px;
       font-size: 2rem;
       align-items: center;
-background-color: red;
    }
    .carrinho {
       max-width: 40px;
@@ -460,6 +461,4 @@ background-color: red;
       margin-top: 30px;
       margin-bottom: 10px;
    }
-
-
-}
+   
