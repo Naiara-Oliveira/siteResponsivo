@@ -469,7 +469,7 @@ span {
 
 }
 
-@media (min-width:1400px) {
+@media(min-width: 1280px){
 
 
    .logo {
@@ -492,12 +492,15 @@ span {
       flex-wrap: nowrap;
       font-size: 1.8rem;
       padding: 10px;
-color: red;
-   }
 
+   }
+.busca{
+   margin-left: 3px;
+}
    .container {
-      margin-left: 390px;
+      margin-left: 330px;
       margin-top: -109px;
+      justify-content: flex-end;
    }
 
    .sessao1 {
