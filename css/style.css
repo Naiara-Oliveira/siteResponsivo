@@ -438,11 +438,11 @@ span {
 
 }
 
-@media (min-width:1024px) {
+@media (min-width:1024px) and (max-width:1400px){
 
 
    .logo {
-      max-width: 300px;
+      max-width: 280px;
       margin-left: 10px;
       position: absolute;
       margin-top: 10px;
