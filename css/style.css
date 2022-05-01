@@ -469,7 +469,7 @@ span {
 
 }
 
-@media (min-width:1385px) {
+@media (min-width:1400px) {
 
 
    .logo {
@@ -489,9 +489,10 @@ span {
 
    .navegacao a {
       gap: 30px;
+      flex-wrap: nowrap;
       font-size: 1.8rem;
       padding: 10px;
-
+color: red;
    }
 
    .container {
