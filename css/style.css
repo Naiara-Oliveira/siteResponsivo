@@ -438,7 +438,7 @@ span {
 
 }
 
-@media (min-width:1024px) and (max-width:1400px){
+@media (min-width:1024px) and (max-width:1265px){
 
 
 
@@ -460,7 +460,7 @@ span {
    }
 
    .navegacao a {
-
+color: red;
       font-size: 1.8rem;
    }
 
