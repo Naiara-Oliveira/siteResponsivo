@@ -441,10 +441,7 @@ span {
 @media (min-width:1024px) and (max-width:1400px){
 
 
-   .logo img {
-max-width: 140px;
-      margin-top: 10px;
-   }
+
    .carrinho {
       max-width: 40px;
    }
@@ -477,7 +474,7 @@ max-width: 140px;
    .sessao2 img,
    .sessao3 img{
       display: grid;
-      grid-template-columns: repeat(auto-preenchimento, minmax(250px, 4fr));
+      grid-template-columns: repeat(auto, minmax(250px, 4fr));
       grid-column: 1;
       max-width: 280px;
       margin-top: 30px;
