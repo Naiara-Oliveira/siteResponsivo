@@ -303,7 +303,7 @@ span {
       display: flex;
       padding: 4px;
       justify-content: space-around;
-      gap: 10px;
+      gap: 30px;
       flex-wrap: wrap;
       height: 100px;
 
@@ -311,12 +311,11 @@ span {
 
    .navegacao a {
 
-      margin-left: 45px;
-      margin: 0;
-      padding: 0;
+      margin-left: px;
+      padding: 5px;
       gap: 20;
       font-size: 1.5rem;
-
+      margin-right: 19px;
    }
 
    .sessao1 img,
@@ -407,7 +406,7 @@ span {
 }
 
 
-@media (min-width:961px) and (max-width:1020px) {
+@media (min-width:961px) and (max-width:1023px) {
 
    .logo {
       max-width: 200px;
@@ -439,44 +438,51 @@ span {
 
 }
 
-@media (min-width:1021px){
-   .logo img{
+@media (min-width:1024px) {
+
+
+   .logo {
+      max-width: 300px;
+      margin-left: 10px;
+      position: absolute;
+      margin-top: 10px;
+   }
+   .carrinho {
       max-width: 40px;
+   }
+
+   .header {
+      height: 160px;
+   }
+
+   .navegacao {
+      
+      gap: 35px;
+      padding: 8px;
+      justify-content: space-around;
+      align-items: flex-end;
 
    }
 
+   .navegacao a {
 
+      font-size: 1.8rem;
+   }
 
-.header {
-   height: 200px;
-   justify-content: space-around;
+   .container {
+      margin-left: 1000px;
+      margin-top: 40px;
 
+   }
+
+   .sessao1 img,
+   .sessao2 img,
+   .sessao3 img{
+      display: grid;
+      grid-template-columns: repeat(auto-preenchimento, minmax(250px, 4fr));
+      grid-column: 1;
+      max-width: 280px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+   }
 }
-
-.container {
-   margin-top: -120px;
-   justify-content: flex-end;
-}
-
-.navegacao a {
-   gap: 10px;
-   padding: 8px;
-   font-size: 2rem;
-   align-items: center;
-
-}
-
-.carrinho {
-   max-width: 40px;
-}
-
-.sessao1 img,
-.sessao2 img,
-.sessao3 img {
-   display: grid;
-   grid-template-columns: 2fr;
-   justify-content: space-around;
-   max-width: 280px;
-   margin-top: 30px;
-   margin-bottom: 10px;
-}}
