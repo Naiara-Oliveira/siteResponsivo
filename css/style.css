@@ -441,8 +441,8 @@ span {
 @media (min-width:1024px) and (max-width:1400px){
 
 
-   .logo {
-
+   .logo img {
+max-width: 140px;
       margin-top: 10px;
    }
    .carrinho {
